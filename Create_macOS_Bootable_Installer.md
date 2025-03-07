@@ -38,4 +38,4 @@ https://support.apple.com/en-us/101578
   `sudo hdiutil detach /volumes/Install\ macOS\ Monterey`
 
 6. 转换dmg文件为cdr Now we convert the DMG disk image file to an ISO disk image file (technically a CDR file but it’s the same as an iso)
-   `sudo hdiutil convert /tmp/Monterey.dmg -format UDTO -o ~/Desktop/Mojave.iso`
+   `sudo hdiutil convert /tmp/Monterey.dmg -format UDTO -o ~/Desktop/Monterey.cdr`
